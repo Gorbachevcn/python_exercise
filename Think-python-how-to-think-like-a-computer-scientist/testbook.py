@@ -1,7 +1,7 @@
 # -*- coding: cp936 -*-
 '''
 Ex.3-4 (1)
-do_twice½ÓÊÜ1¸öº¯Êý¶ÔÏó×÷ÎªÊµ²ÎÀ´´«µÝ
+do_twiceæŽ¥å—1ä¸ªå‡½æ•°å¯¹è±¡ä½œä¸ºå®žå‚æ¥ä¼ é€’
 '''
 def do_twice(f):
     f
@@ -19,16 +19,16 @@ print 'Ex.3-4 (1) Terminated'
 
 '''
 Ex.3-4 (2,3,4)
-do_twice½ÓÊÜ2¸öÊµ²Î£¬Ò»¸öÊÇº¯Êý¶ÔÏó£¬ÁíÒ»¸öÊÇÒ»¸öÖµ£¬
-do_twiceµ÷ÓÃº¯Êý¶ÔÏó2´Î£¬²¢´«ÈëÄÇ¸öÖµ×÷ÎªÊµ²Î
+do_twiceæŽ¥å—2ä¸ªå®žå‚ï¼Œä¸€ä¸ªæ˜¯å‡½æ•°å¯¹è±¡ï¼Œå¦ä¸€ä¸ªæ˜¯ä¸€ä¸ªå€¼ï¼Œ
+do_twiceè°ƒç”¨å‡½æ•°å¯¹è±¡2æ¬¡ï¼Œå¹¶ä¼ å…¥é‚£ä¸ªå€¼ä½œä¸ºå®žå‚
 '''
 def do_twice(f,ch):
     f(ch)
     f(ch)
     '''
-f(ch)¾Í±íÊ¾°Ñch´«¸øf£¬ËùÒÔÔÚºóÃæµ÷ÓÃdo_twiceµÄÊ±ºò¾Í²»ÄÜ¸øÀ¨ºÅÄÚµÄprint_spam¸³²ÎÊý£»
-ÓÉÓÚËõ½øµÄÔµ¹Ê£¬²»ÄÜÈÃº¯ÊýÄÚµÄÇ°ºó3¸öµ¥ÒýºÅ¶ÔÆë£º
-1. ÒªÃ´Ç°ÃæËõ½ø¶øºóÃæµÄÄÇ¸ö²» Ëõ½ø£»2. ÒªÃ´Ç°ºó¶¼Ëõ½ø
+f(ch)å°±è¡¨ç¤ºæŠŠchä¼ ç»™fï¼Œæ‰€ä»¥åœ¨åŽé¢è°ƒç”¨do_twiceçš„æ—¶å€™å°±ä¸èƒ½ç»™æ‹¬å·å†…çš„print_spamèµ‹å‚æ•°ï¼›
+ç”±äºŽç¼©è¿›çš„ç¼˜æ•…ï¼Œä¸èƒ½è®©å‡½æ•°å†…çš„å‰åŽ3ä¸ªå•å¼•å·å¯¹é½ï¼š
+1. è¦ä¹ˆå‰é¢ç¼©è¿›è€ŒåŽé¢çš„é‚£ä¸ªä¸ ç¼©è¿›ï¼›2. è¦ä¹ˆå‰åŽéƒ½ç¼©è¿›
 '''
     return None
 
@@ -43,14 +43,14 @@ print 'Ex.3-4 (2,3,4) Terminated'
 
 '''
 Ex.3-4 (5)
-do_four½ÓÊÜÒ»¸öº¯Êý¶ÔÏó ºÍ Ò»¸öÖµ£¬
-ÄÇ¸öÖµ×÷ÎªÊµ²Îµ÷ÓÃº¯Êý4´Î£¬
-ÇÒº¯ÊýÌåÓ¦¸ÃÖ»ÓÐ2¸öÓï¾ä
+do_fouræŽ¥å—ä¸€ä¸ªå‡½æ•°å¯¹è±¡ å’Œ ä¸€ä¸ªå€¼ï¼Œ
+é‚£ä¸ªå€¼ä½œä¸ºå®žå‚è°ƒç”¨å‡½æ•°4æ¬¡ï¼Œ
+ä¸”å‡½æ•°ä½“åº”è¯¥åªæœ‰2ä¸ªè¯­å¥
 '''
 def do_four(func,ch):
     func(ch)
     '''
-funcºóÃæ²»¼Ó(ch)µÄ»°£¬»áÃ»ÓÐÐÎ²ÎµÄ´«µÝ£¬Êä³ö½á¹û»áÊÇNone
+funcåŽé¢ä¸åŠ (ch)çš„è¯ï¼Œä¼šæ²¡æœ‰å½¢å‚çš„ä¼ é€’ï¼Œè¾“å‡ºç»“æžœä¼šæ˜¯None
 '''
     func(ch)
     return None
